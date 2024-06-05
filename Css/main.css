@@ -92,6 +92,7 @@ header {
 section#header {
     border-bottom: 1px solid gray;
     position: relative;
+
     div.flex {
         display: flex;
         align-items: center;
@@ -186,8 +187,10 @@ section#header {
         justify-content: center;
         width: 600px;
         gap: 16px;
+
         div.widgetitem {
             color: #495057;
+
             h2 {
                 margin: 0px;
                 text-align: center;
@@ -199,10 +202,60 @@ section#header {
                 font-size: 14px;
             }
         }
-        div.border{
+
+        div.border {
             border: 1px solid gray;
         }
     }
 }
 
 /* Flex end */
+
+/* James start */
+section#james {
+    padding: 128px 0px;
+    display: flex;
+    gap: 32px;
+
+    div.flexleft {
+        img {
+            width: 255px;
+            height: 255px;
+        }
+    }
+
+    div.flexright {
+        color: #495057;
+
+        h4 {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0px;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            padding: 8px;
+            font-weight: 700;
+        }
+
+        a.borderradius {
+            padding: 10px 12px;
+            background-color: #f49a83;
+            border-radius: 50px;
+        }
+
+        a.borderradius:hover {
+            background-color: #FF7A57;
+        }
+    }
+}
+
+/* James end */
