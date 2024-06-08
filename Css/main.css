@@ -269,10 +269,12 @@ section#service {
 
         h4 {
             font-size: 15px;
+            margin-bottom: 0px;
         }
 
         h2 {
             font-size: 30px;
+            margin-top: 5px;
         }
 
         p {
@@ -283,6 +285,8 @@ section#service {
     div.cards {
         display: flex;
         gap: 32px;
+        margin-top: 64px;
+
         div.card {
             flex: 1;
             width: 200px;
@@ -293,7 +297,8 @@ section#service {
             div.align {
                 position: relative;
                 top: 50%;
-                translate: 0 -50% ;
+                translate: 0 -50%;
+
                 i {
                     font-size: 40px;
                     color: #FF7A57;
@@ -304,9 +309,102 @@ section#service {
                     margin-top: 10px;
                     margin-bottom: 15px;
                 }
+
+                div.cards:hover {
+                    background-color: #FF7A57;
+                    transition: all 0.3s;
+                }
             }
         }
     }
 }
 
 /* Service end */
+
+/* Skills start */
+section#skills {
+    color: #495057;
+    margin-top: 128px;
+
+    div.textcenter {
+        text-align: center;
+
+        h4 {
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-top: 5px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    div.flexbar {
+        display: flex;
+        gap: 32px;
+        margin-top: 64px;
+        div.leftbar {
+            flex: 1;
+       
+            h5 {
+                font-size: 16px;
+                margin: 0px;
+                margin-bottom: 10px;
+            }
+
+            div.width {
+                margin-bottom: 30px;
+                width: 100%;
+                background-color: #EAF0FC;
+                height: 4px;
+
+                div.w80 {
+                    width: 80%;
+                    background-color: #FF7A57;
+                    height: 4px;
+                }
+
+                div.w95 {
+                    width: 95%;
+                    background-color: #FF7A57;
+                    height: 4px;
+                }
+            }
+        }
+
+        div.rightbar {
+            flex: 1;
+
+            h5 {
+                font-size: 16px;
+                margin: 0px;
+                margin-bottom: 10px;
+            }
+
+            div.width {
+                margin-bottom: 30px;
+                width: 100%;
+                background-color: #EAF0FC;
+                height: 4px;
+
+                div.w70 {
+                    width: 70%;
+                    background-color: #FF7A57;
+                    height: 4px;
+                }
+                div.w90{
+                    width: 90%;
+                    background-color: #FF7A57;
+                    height: 4px;
+                }
+            }
+        }
+    }
+}
+
+/* Skills end */
