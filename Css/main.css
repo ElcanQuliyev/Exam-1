@@ -501,11 +501,13 @@ section#testmonial {
     div.about {
         text-align: center;
         margin-top: 64px;
+
         div.aboutcenter {
             border: 1px solid #495057;
             width: 50%;
             position: relative;
             left: 25%;
+
             img {
                 border-radius: 50%;
                 width: 80px;
@@ -531,3 +533,126 @@ section#testmonial {
 }
 
 /* Testmonial end */
+
+/* Blog start */
+section#blog {
+    color: #495057;
+    margin-top: 128px;
+
+    div.textcenter {
+        text-align: center;
+
+        h4 {
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-top: 5px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    div.news {
+        display: flex;
+        gap: 64px;
+        margin-top: 64px;
+        justify-content: center;
+
+        div.newscard {
+            border: 1px solid #495057;
+
+            img {
+                width: 330px;
+                height: 250px;
+            }
+
+            div.cardbody {
+                margin-left: 10px;
+
+                h4 {
+                    font-size: 20px;
+                }
+
+                div.link {
+                    display: flex;
+                    gap: 16px;
+
+                    a {
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #444444;
+                        font-size: 20px;
+
+                        i {
+                            color: #444444;
+                            font-size: 15px;
+                        }
+
+                        span {
+                            color: #444444;
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                p {
+                    font-size: 15px;
+                }
+
+                a {
+                    color: #FF7A57;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    div.hireMe {
+        background-color: #FF7A57;
+        margin-top: 64px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+
+        div.left {
+            margin-left: 15px;
+
+            h4 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                margin-top: 0px;
+            }
+        }
+
+        div.right {
+            margin-right: 15px;
+            a {
+                display: inline-block;
+                color: black;
+                text-decoration: none;
+                font-weight: 700;
+            }
+            a.borderradius {
+                padding: 10px 12px;
+                border-radius: 50px;
+                background-color: white;
+            }
+
+            a.borderradius:hover {
+                background-color: #f8f9fa;
+            }
+
+        }
+    }
+}
+
+/* Blog end */
