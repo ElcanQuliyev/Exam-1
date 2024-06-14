@@ -433,35 +433,101 @@ section#portfolio {
             font-size: 15px;
         }
     }
-    div.grid{
+
+    div.grid {
         display: grid;
         gap: 32px;
         grid-template-columns: auto auto auto;
-        div.img{
+
+        div.img {
             width: 210px;
-            img{
-              width: 100%;
+
+            img {
+                width: 100%;
             }
         }
     }
-    img.h1{
+
+    img.h1 {
         height: 158px;
     }
-    img.h2{
+
+    img.h2 {
         height: 118px;
     }
-    img.h3{
+
+    img.h3 {
         height: 185px;
     }
-    img.h4{
+
+    img.h4 {
         height: 210px;
     }
-    img.h5{
+
+    img.h5 {
         height: 250px;
     }
-    img.h6{
+
+    img.h6 {
         height: 185px;
     }
 }
 
 /* Portfolio end */
+
+/* Testmonial start */
+section#testmonial {
+    color: #495057;
+    margin-top: 128px;
+
+    div.textcenter {
+        text-align: center;
+
+        h4 {
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-top: 5px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    div.about {
+        text-align: center;
+        margin-top: 64px;
+        div.aboutcenter {
+            border: 1px solid #495057;
+            width: 50%;
+            position: relative;
+            left: 25%;
+            img {
+                border-radius: 50%;
+                width: 80px;
+                height: 80px;
+                margin-top: 32px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+            h3 {
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+
+            h4 {
+                margin-top: 0px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+/* Testmonial end */
